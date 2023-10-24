@@ -40,3 +40,88 @@ main {
     border-radius:  40% 24px 24px 40%/8px 8px 8px 8px;
     overflow: auto;
 }
+
+@media screen and (min-width: 1200px) {
+
+    .empty-whisky {
+        display: none;
+    }
+
+    .whisky {
+        height: 15rem;
+    }
+
+    .desktop {
+        display:flex;
+    }
+}
+
+@media screen and (1100px < width < 1200px) {
+
+    .inkpen {
+        display: none;
+    }
+
+    .empty-whisky {
+        display: none;
+    }
+
+    .desktop {
+        display:flex;
+    }
+    .whisky {
+        height: 15rem;
+    }
+}
+
+@media screen and (1000px < width < 1100px) {
+
+    .inkpen {
+        display: none;
+    }
+
+    .whisky {
+        display: none;
+    }
+
+    .desktop {
+        display:flex;
+    }
+    .empty-whisky {
+        height: 15rem;
+    }
+}
+
+@media screen and (800px < width < 1000px) {
+
+    .inkpen {
+        display: none;
+    }
+
+    .whisky {
+        display: none;
+    }
+
+    .empty-whisky {
+        display: none;
+    }
+}
+
+@media screen and (width < 800px) {
+
+    .inkpen {
+        display: none;
+    }
+
+    .whisky {
+        display: none;
+    }
+
+    .empty-whisky {
+        display: none;
+    }
+
+    .pages {
+        flex-direction: column-reverse;
+    }
+}
